@@ -10,8 +10,9 @@ public class Main {
         if(((N%2==1)&&(N%3==0))||((N%2==0)&&(N%5==0))){
             System.out.printf("true");
         }
-    }
-    else{
+        else{
         System.out.printf("false");
     }
+    }
+    
 }
