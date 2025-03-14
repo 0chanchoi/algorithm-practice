@@ -6,7 +6,7 @@ public class Main {
 
         int N = sc.nextInt();
 
-        for(i=0; i<7; i++){
+        for(int i=0; i<7; i++){
             System.out.printf("%d", N);
         }
     }
