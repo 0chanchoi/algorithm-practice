@@ -8,10 +8,10 @@ public class Main {
         int N = sc.nextInt();
 
         if((N%3==0)||(N%5==0)){
-            System.out.printf("True");
+            System.out.printf("true");
         }
         else{
-            System.out.printf("False");
+            System.out.printf("false");
         }
     }
 }
