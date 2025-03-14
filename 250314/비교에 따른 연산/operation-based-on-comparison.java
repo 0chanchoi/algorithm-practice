@@ -13,7 +13,7 @@ public class Main {
             System.out.printf("%d", a*b);
         }
         else{
-            System.out.printf("%d", a/b);
+            System.out.printf("%d", b/a);
         }
     }
 }
