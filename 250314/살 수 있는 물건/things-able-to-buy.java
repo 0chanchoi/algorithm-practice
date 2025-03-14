@@ -9,7 +9,7 @@ public class Main {
         if(N>=3000){
             System.out.print("book");
         }
-        else if(N>0){
+        else if(N>=1000){
             System.out.printf("mask");
         }
         else{
