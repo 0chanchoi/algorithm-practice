@@ -6,7 +6,7 @@ public class Main {
 
         int N = sc.nextInt();
 
-        if(N>3000){
+        if(N>=3000){
             System.out.print("book");
         }
         else if(N>0){
