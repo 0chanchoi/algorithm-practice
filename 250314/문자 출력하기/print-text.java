@@ -4,10 +4,10 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
 
-        int N = sc.nextInt();
+        String N = sc.next();
 
-        for(int i=0; i<7; i++){
-            System.out.printf("%d", N);
+        for(int i=0; i<8; i++){
+            System.out.printf("%S", N);
         }
     }
 }
