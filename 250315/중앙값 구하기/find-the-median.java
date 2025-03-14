@@ -9,10 +9,10 @@ public class Main {
         int C = sc.nextInt();
 
 
-        if(((A>B)&&(B>C))||((A<B)&&(B<C)) ){
+        if(((A>B)&&(B>C))||((A<B)&&(B<C))){
             System.out.printf("%d",B);
         }
-        else if(((B>A)&&(A>C))||((A<B)&&(B<C))){
+        else if(((B>A)&&(A>C))||((B<A)&&(A<C))){
             System.out.printf("%d",A);
         }
         else if(((A>C)&&(C>B))||((A<C)&&(C<B))){
