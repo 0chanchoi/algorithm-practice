@@ -6,10 +6,10 @@ public class Main {
 
         int N = sc.nextInt();
 
-        if(N>=1001){
+        if(N>3000){
             System.out.print("book");
         }
-        else if(N>=1){
+        else if(N>0){
             System.out.printf("mask");
         }
         else{
