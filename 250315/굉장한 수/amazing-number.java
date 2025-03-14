@@ -7,11 +7,11 @@ public class Main {
 
         int N = sc.nextInt();
 
-        if((N%3==0)||(N%5==0)){
+        if(((N%2==1)&&(N%3==0))||((N%2==0)&&(N%==5))){
             System.out.printf("true");
         }
-        else{
-            System.out.printf("false");
-        }
+    }
+    else{
+        System.out.printf("false");
     }
 }
