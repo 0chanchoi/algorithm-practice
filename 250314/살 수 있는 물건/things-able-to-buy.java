@@ -6,14 +6,14 @@ public class Main {
 
         int N = sc.nextInt();
 
-        if(N>1000){
-            System.out.println("book");
+        if(N>=1001){
+            System.out.print("book");
         }
-        else if(N>0){
-            System.out.println("mask");
+        else if(N>=1){
+            System.out.printf("mask");
         }
         else{
-            System.out.println("no");
+            System.out.printf("no");
         }
     }
 }
