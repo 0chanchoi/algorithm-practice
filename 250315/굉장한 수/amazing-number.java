@@ -7,7 +7,7 @@ public class Main {
 
         int N = sc.nextInt();
 
-        if((N%3==0)&&(N%5==0)){
+        if((N%3==0)||(N%5==0)){
             System.out.printf("True");
         }
         else{
