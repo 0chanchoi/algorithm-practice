@@ -7,13 +7,13 @@ public class Main {
         int N = sc.nextInt();
 
         if(N>1000){
-            System.out.printf("book");
+            System.out.println("book");
         }
         else if(N>0){
-            System.out.printf("mask");
+            System.out.println("mask");
         }
         else{
-            System.out.printf("no");
+            System.out.println("no");
         }
     }
 }
