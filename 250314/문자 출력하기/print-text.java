@@ -7,7 +7,7 @@ public class Main {
         String N = sc.next();
 
         for(int i=0; i<8; i++){
-            System.out.printf("%S", N);
+            System.out.printf("%s", N);
         }
     }
 }
